@@ -1,4 +1,4 @@
-package com.ajtechnology.chatty
+package com.ajtechnology.chatter
 
 import org.junit.Test
 

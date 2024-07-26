@@ -1,9 +1,8 @@
-package com.ajtechnology.chatty
+package com.ajtechnology.chatter
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -13,14 +12,14 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.ajtechnology.chatty.screens.ChatListScreen
-import com.ajtechnology.chatty.screens.LoginScreen
-import com.ajtechnology.chatty.screens.ProfileScreen
-import com.ajtechnology.chatty.screens.SignUpScreen
-import com.ajtechnology.chatty.screens.SingleChatScreen
-import com.ajtechnology.chatty.screens.SingleStatusScreen
-import com.ajtechnology.chatty.screens.StatusScreen
-import com.ajtechnology.chatty.ui.theme.ChattyTheme
+import com.ajtechnology.chatter.screens.ChatListScreen
+import com.ajtechnology.chatter.screens.LoginScreen
+import com.ajtechnology.chatter.screens.ProfileScreen
+import com.ajtechnology.chatter.screens.SignUpScreen
+import com.ajtechnology.chatter.screens.SingleChatScreen
+import com.ajtechnology.chatter.screens.SingleStatusScreen
+import com.ajtechnology.chatter.screens.StatusScreen
+import com.ajtechnology.chatter.ui.theme.ChattyTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 sealed class DestinationScreens(var route: String) {

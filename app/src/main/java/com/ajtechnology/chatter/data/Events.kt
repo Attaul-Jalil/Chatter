@@ -1,4 +1,4 @@
-package com.ajtechnology.chatty.data
+package com.ajtechnology.chatter.data
 
 open class Events<out T>( val content: T){
 

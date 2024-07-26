@@ -1,11 +1,5 @@
-package com.ajtechnology.chatty.screens
+package com.ajtechnology.chatter.screens
 
-import androidx.compose.animation.AnimatedContent
-import androidx.compose.animation.AnimatedContentTransitionScope.SlideDirection.Companion.Down
-import androidx.compose.animation.AnimatedContentTransitionScope.SlideDirection.Companion.Up
-import androidx.compose.animation.core.EaseIn
-import androidx.compose.animation.core.EaseOut
-import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -19,12 +13,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.ajtechnology.chatty.DestinationScreens
-import com.ajtechnology.chatty.R
-import com.ajtechnology.chatty.navigateTo
+import com.ajtechnology.chatter.DestinationScreens
+import com.ajtechnology.chatter.R
+import com.ajtechnology.chatter.navigateTo
 
 
 enum class BottomNavigationItem(val icon: Int, val navDestinationScreens: DestinationScreens) {

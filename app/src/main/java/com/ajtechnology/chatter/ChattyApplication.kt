@@ -1,4 +1,4 @@
-package com.ajtechnology.chatty
+package com.ajtechnology.chatter
 
 import android.app.Application
 import com.google.firebase.BuildConfig

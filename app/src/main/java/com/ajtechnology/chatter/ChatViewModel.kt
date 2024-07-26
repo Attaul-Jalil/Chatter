@@ -1,11 +1,11 @@
-package com.ajtechnology.chatty
+package com.ajtechnology.chatter
 
 import android.net.Uri
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
-import com.ajtechnology.chatty.data.Events
-import com.ajtechnology.chatty.data.USER_NODE
-import com.ajtechnology.chatty.data.UserData
+import com.ajtechnology.chatter.data.Events
+import com.ajtechnology.chatter.data.USER_NODE
+import com.ajtechnology.chatter.data.UserData
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.toObject

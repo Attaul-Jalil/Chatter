@@ -1,4 +1,4 @@
-package com.ajtechnology.chatty.data
+package com.ajtechnology.chatter.data
 
 data class UserData(
     var userid:String? = "",

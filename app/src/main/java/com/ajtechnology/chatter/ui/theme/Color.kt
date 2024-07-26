@@ -1,4 +1,4 @@
-package com.ajtechnology.chatty.ui.theme
+package com.ajtechnology.chatter.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

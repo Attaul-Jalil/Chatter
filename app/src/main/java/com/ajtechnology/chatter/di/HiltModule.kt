@@ -1,4 +1,4 @@
-package com.ajtechnology.chatty.di
+package com.ajtechnology.chatter.di
 
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
